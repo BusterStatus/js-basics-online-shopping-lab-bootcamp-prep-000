@@ -23,7 +23,7 @@ function viewCart() {
       
     }
   } else {
-    "Your shopping cart is empty."
+    "Your shopping cart is empty.";
   }
 }
 
