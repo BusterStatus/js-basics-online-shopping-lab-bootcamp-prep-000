@@ -21,11 +21,11 @@ function viewCart() {
   if (cart.length > 0) {
     for (i = 0; i < cart.length; i++) {
       var cartContents = cart[i][itemName] + " at " + cart[i][itemPrice];
-      if (cart.length === i + 1) {
-        message = message + cartContents + ".";
+      if (cart.length === i) {
+        message = message + " and " + cartContents + ".";
       }
-      else if (cart.length === ) {
-        message = mes
+      else if (cart.length > i) {
+        message = message + cartContents + ", "
       }
     }
   } else {
