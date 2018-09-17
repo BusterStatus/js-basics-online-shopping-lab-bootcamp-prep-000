@@ -17,11 +17,13 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var message = "In your cart, you have "
+  var message = "In your cart, you have ";
   if (cart.length > 0) {
     for (i = 0; i < cart.length; i++) {
       
     }
+  } else {
+    "Your shopping cart is empty."
   }
 }
 
