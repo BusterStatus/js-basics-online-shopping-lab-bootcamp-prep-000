@@ -25,10 +25,10 @@ function viewCart() {
         message = message + " and " + cartContents + ".";
       }
       else if (cart.length > i) {
-        message = message + cartContents + ", "
+        message = message + cartContents + ", ";
       }
       else {
-        message = message + cartContents + "."
+        message = message + cartContents + ".";
       }
     }
   } else {
