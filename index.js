@@ -17,6 +17,12 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  var message;
+  if (cart.length > 0) {
+    for (i = 0; i < cart.length; i++) {
+      
+    }
+  }
 }
 
 function total() {
