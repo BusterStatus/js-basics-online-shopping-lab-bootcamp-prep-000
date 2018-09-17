@@ -27,6 +27,9 @@ function viewCart() {
       else if (cart.length > i) {
         message = message + cartContents + ", "
       }
+      else {
+        message = message + cartContents + "."
+      }
     }
   } else {
     "Your shopping cart is empty.";
