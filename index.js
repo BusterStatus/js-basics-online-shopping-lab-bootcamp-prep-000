@@ -32,8 +32,9 @@ function viewCart() {
       }
     }
   } else {
-    "Your shopping cart is empty.";
+    message = "Your shopping cart is empty.";
   }
+  return message;
 }
 
 function total() {
